@@ -1,0 +1,182 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": -1,
+    "editor.fontSize": 14,
+    // "editor.fontFamily": "''Consolas','Meiryo UI'",
+    "markdown.preview.fontFamily": "'Meiryo UI'",
+    //    "workbench.colorTheme": "Hybrid Next",
+    "files.eol": "\n",
+    //    "workbench.iconTheme": "vscode-great-icons",
+    //    "vim.disableAnnoyingNeovimMessage": true,
+    /*
+    "openvim.executablePath"          : "C:/vim/kaoriya/vim80-kaoriya-win64/gvim.exe",
+*/
+    "editor.minimap.enabled": false,
+    "glassit.alpha": 250,
+    "workbench.iconTheme": "vscode-icons",
+    "C_Cpp.intelliSenseEngineFallback": "Disabled",
+    "C_Cpp.errorSquiggles": "Enabled",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#021d24",
+        "statusBar.noFolderBackground": "#bbbbbbec",
+        "statusBar.debuggingBackground": "#17c200"
+    },
+    "workbench.sideBar.location": "right",
+    "files.exclude": {
+        "thirdparty": true,
+        "exports": true,
+        ".vscode": true,
+        "ctags": true,
+        "GTAGS": true,
+        "GRTAGS": true,
+        "GPATH": true,
+        "**/*.o": true,
+        //"**/*.s": true,
+        "**/*.exe": true,
+        "**/*.bak": true
+    },
+    //    "toggleexcludedfiles.statusBar.enabled": true,
+    /*
+    "sync.gist": "252b1635c5dfda52251e68ee7bce4ce0",
+    "sync.lastUpload": "2017-11-28T05:26:36.089Z",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastDownload": "",
+    "sync.forceDownload": false,
+    "sync.anonymousGist": false,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false,
+    "sync.askGistName": false,
+ */
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    //    "todohighlight.include": [
+    //        "**/*.js",
+    //        "**/*.jsx",
+    //        "**/*.ts",
+    //        "**/*.tsx",
+    //        "**/*.html",
+    //        "**/*.php",
+    //        "**/*.css",
+    //        "**/*.scss",
+    //        "**/*.cpp",
+    //        "**/*.h"
+    //    ],
+    //    "todohighlight.keywords": [
+    //        "TODO:",
+    //        {
+    //            "text": "TODO:",
+    //            "color": "yellow",
+    //            "backgroundColor": "darkgoldenrod",
+    //            "overviewRulerColor": "yellow",
+    //            "isWholeLine": true
+    //        }
+    //    ],
+    //"files.autoGuessEncoding": true,
+    "files.autoGuessEncoding": false,
+    "editor.formatOnPaste": false,
+    "workbench.activityBar.visible": false,
+    "C_Cpp.navigation.length": 150,
+    "C_Cpp.intelliSenseEngine": "Default",
+    "window.title": "${rootName}${separator}${activeEditorShort}${separator}${activeEditorLong}",
+    "editor.renderWhitespace": "none",
+    "git.ignoreMissingGitWarning": true,
+    //    ,
+    //    "markdown.styles": [
+    //        "C:/Users/wataru.kamba.DMH-GLOBAL/.vscode/md_preview.css"
+    //      ]
+    "C_Cpp.clang_format_path": "C:\\Program Files\\LLVM\\bin\\clang-format.exe",
+    "C_Cpp.clang_format_style": "file",
+    "C_Cpp.clang_format_fallbackStyle": "Visual Studio",
+    //"clang-format.executable": "C:\\Program Files\\LLVM\\bin\\clang-format.exe"
+    "editor.mouseWheelZoom": true,
+    "cmake.cmakePath": "C:/Program Files/CMake/bin/cmake.exe",
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        //"cpp": "cd $dir && g++ -std=c++14 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ -S -O3 -std=c++14 $fileName && as -o $fileNameWithoutExt.o $fileNameWithoutExt.s && g++ -o $fileNameWithoutExt $fileNameWithoutExt.o && $dir$fileNameWithoutExt",
+        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        "python": "python",
+        "perl": "perl",
+        "perl6": "perl6",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "scriptcs",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "racket": "racket",
+        "ahk": "autohotkey",
+        "autoit": "autoit3",
+        "dart": "dart",
+        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        "haskell": "runhaskell",
+        "nim": "nim compile --verbosity:0 --hints:off --run"
+    },
+    //    "c-cpp-flylint.flexelint.enable": false,
+    "[plaintext]": {
+        "editor.wordWrap": "on"
+    },
+     "[iuml]": {
+       "editor.wordWrap": "off"
+    },
+    "[puml]": {
+        "editor.wordWrap": "off"
+    },
+    //"diffEditor.ignoreTrimWhitespace": false,
+    "cmake.generator": "Ninja",
+    "cmake.configureSettings": {
+        "CMAKE_MAKE_PROGRAM": "C:/tool/ninja.exe"
+    },
+    //"markJump.maximumLimit": 56
+    "problems.decorations.enabled": false,
+    //"terminal.integrated.shell.windows": "C:\\cygwin64\\Cygwin.bat",
+    // "html.autoClosingTags":true
+    "astyle.additional_languages": [
+        "qml"
+    ],
+    "workbench.colorTheme": "Bittersweet",
+    "explorer.confirmDelete": false,
+    "svgviewer.transparencygrid": false,
+    "svgviewer.enableautopreview": true,
+    "cmake-tools-helper.cmake_download_path": "C:\\Users\\wataru.kamba.DMH-GLOBAL\\.vscode\\extensions\\maddouri.cmake-tools-helper-0.1.1\\cmake_download",
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "java.home": "C:\\Program Files\\Java\\jdk1.8.0_131",
+    "autoAlign.enabled": {
+        "csv": true,
+        "bsv": true,
+        "h": true
+    },
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "workbench.editor.closeEmptyGroups" : true,
+    "workbench.editor.openSideBySideDirection": "right"
+    //"uncrustify.executablePath": "C:\\usr\\uncrustify"
+    // /"uncrustify.configPath":"C:\\usr\\uncrustify\\cfg"
+    //    "astyle.astylerc" : "C:\\Users\\wataru.kamba.DMH-GLOBAL"
+    // include path 
+    // https://github.com/Microsoft/vscode-cpptools/issues/368
+}
