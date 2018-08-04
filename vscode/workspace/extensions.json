@@ -1,0 +1,77 @@
+{
+    // See http://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+    // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+    // List of extensions which should be recommended for users of this workspace.
+    "recommendations": [
+        /* editor */
+        "Gruntfuggly.activitusbar",
+        "s-nlf-fh.glassit",
+        "alefragnani.project-manager",
+        "Perkovec.emoji",
+        "junv.recent-files",
+        "ow.vscode-subword-navigation",
+        "electrotype.windows-explorer-context-menu",
+        "wmaurer.vscode-jumpy",
+        "ms-vsliveshare.vsliveshare",
+        
+        /* natural language */
+        "streetsidesoftware.code-spell-checker",
+        
+        /* programming as a whole */
+        "formulahendry.code-runner",
+        "formulahendry.auto-close-tag",
+        // "chiehyu.vscode-astyle",
+        "vincaslt.highlight-matching-tag",
+        "christian-kohler.path-intellisense",
+        "robertohuertasm.vscode-icons",
+        "CoenraadS.bracket-pair-colorizer",
+        "vincaslt.highlight-matching-tag",
+        
+        // images
+        // "cssho.vscode-svgviewer",
+        
+        /* uml */
+        "jebbs.plantuml",
+        
+        /* markdown */
+        "DavidAnson.vscode-markdownlint",
+        "hnw.vscode-auto-open-markdown-preview",
+        "evilz.vscode-reveal",
+        "shd101wyy.markdown-preview-enhanced",
+        
+        /* c/c++ */
+        "ms-vscode.cpptools",
+        "twxs.cmake",
+        "vector-of-bool.cmake-tools",
+        "webfreak.debug",
+
+        /* python */
+        "ms-python.python",
+
+        /* html */
+        "medzhidov.font-awesome-codes-html",
+        "abusaidm.html-snippets",
+        "mkaufman.htmlhint",
+        "hdg.live-html-previewer",
+    
+        /* es/java script */
+        "xabikos.javascriptsnippets",
+        "dbaeumer.vscode-eslint",
+
+        /* angular */
+        "Mikael.angular-beastcode",
+        
+        /* java */
+        //"vscjava.vscode-java-pack",
+        
+        /* qml */
+        "bbenoist.qml",
+        "ThomasVogelpohl.vsc-qml-snippets",
+
+        /* colorscheme */
+        "wesbos.theme-cobalt2",
+        "peymanslh.blueberry-dark-theme",
+    ],
+    // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+    "unwantedRecommendations": []
+}
